@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="title-font font-medium text-white mb-4 md:mb-0">
+        <span className="title-font font-medium text-white mb-4 md:mb-0">
           <Link to="about"
                 smooth={true}
                 duration={500}
@@ -14,7 +14,7 @@ export default function Navbar() {
                 >
             Varun Pasupuleti
           </Link>
-        </a>
+        </span>
         
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
             <Link
