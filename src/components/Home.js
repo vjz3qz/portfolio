@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <section 
       id="home"
-      className="" // adjust the height value to suit your needs
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/backdrop.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/backdrop.jpg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'

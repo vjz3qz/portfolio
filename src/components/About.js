@@ -56,7 +56,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src={`${process.env.PUBLIC_URL}/hero.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/hero.jpg`}
           />
         </div>
       </div>

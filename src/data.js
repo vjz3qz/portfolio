@@ -51,7 +51,7 @@ export const projects = [
       subtitle: "MERN Stack",
       description:
         "Leftover Link is a full-stack application that aims to bridge the gap between local restaurants and homeless shelters, facilitating the donation of unused food before it goes to waste.",
-      image: "/leftoverlink.png",
+      image: "/images/leftoverlink.png",
       link: "https://github.com/vjz3qz/leftover-link",
     },
     {
@@ -59,7 +59,7 @@ export const projects = [
       subtitle: "Java, Gradle, JUnit",
       description:
         "A Java-based GUI application replicating the classic Brick Breaker game, incorporating object oriented design and real-life physics principles.",
-      image: "/brickbreaker.png",
+      image: "/images/brickbreaker.png",
       link: "https://github.com/vjz3qz/brick-breaker",
     },
     {
@@ -67,7 +67,7 @@ export const projects = [
       subtitle: "Java, Gradle, SQLite",
       description:
         "A secure Java-based Course Review Software System with a three-layer architecture, featuring user authentication and database persistence with SQLite.",
-      image: "/coursereview.png",
+      image: "/images/coursereview.png",
       link: "https://github.com/vjz3qz/course-review",
     },
     {
@@ -75,7 +75,7 @@ export const projects = [
       subtitle: "C, Unix/Linux, Socket Programming",
       description:
         "Socket Chat is a basic chat program written in C that enables real-time communication between two users over a network. It uses sockets to establish connections.",
-      image: "/socketchat.png",
+      image: "/images/socketchat.png",
       link: "https://github.com/vjz3qz/socket-chat",
     }
   ];
