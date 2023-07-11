@@ -6,7 +6,7 @@ export default function Home() {
       id="home"
       className="" // adjust the height value to suit your needs
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/backdrop4.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/backdrop.jpg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat'
