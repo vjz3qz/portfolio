@@ -7,13 +7,13 @@ import { Disclosure } from "@headlessui/react";
 
 function IndividualExperience({ experience }) {
   return (
-    <div className="p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-gray-700 bg-gray-800 opacity-80 hover:opacity-90">
+    <div className="my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-gray-700 bg-gray-800 opacity-80 hover:opacity-90">
 
 
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+            <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
               <div className="flex">
 
                 <div>{experience.logo && (
