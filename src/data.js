@@ -1,3 +1,12 @@
+export const education = [{
+  school: "University of Virginia",
+  degree: "Bachelors of Science",
+  major: "Computer Science",
+  time: "Expected Graduation, May 2025",
+  gpa: "3.91",
+  coursework: "Data Structures & Algorithms, Software Development, Computer Systems & Organization, Discrete Mathematics, Linear Algebra, Calculus II/III, & Physics I/II"
+}]
+
 export const experiences = [
     {
       company: "Freddie Mac",
@@ -76,9 +85,10 @@ export const projects = [
     "Java",
     "Javascript",
     "Git",
-    "UNIX/LINUX",
+    "Unix/Linux",
     "SQL",
     "React.js",
     "Node.js",
+    "Express.js",
     "MongoDB"
   ];
