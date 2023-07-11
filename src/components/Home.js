@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 
 export default function Home() {
+  const sectionRef = useRef(null);
+  
+  useEffect(() => {
+    function handleResize() {
+      if (sectionRef.current) {
+        sectionRef.current.style.height = `${window.innerHeight}px`;
+      }
+    }
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <section 
+      ref={sectionRef}
       id="home"
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/backdrop.jpg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width: '100vw',
-        height: '100vh',
+        width: '100%',
         position: 'relative',
       }}
     >
