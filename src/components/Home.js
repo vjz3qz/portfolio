@@ -8,7 +8,10 @@ export default function Home() {
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/backdrop.jpg)`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        width: '100vw',
+        height: '100vh',
+        position: 'relative',
       }}
     >
       <div className="container mx-auto flex px-10 py-20 md:py-36 lg:py-48 md:flex-row flex-col items-center">
