@@ -9,6 +9,7 @@ export default function Navbar() {
           <Link to="home"
             smooth={true}
             duration={1000}
+            offset={-70}
             className="ml-3 text-xl"
           >
             Varun Pasupuleti
@@ -19,6 +20,7 @@ export default function Navbar() {
         <Link to="about"
             smooth={true}
             duration={1000}
+            offset={-90}
             className="mr-5 hover:text-white font-light text-slate-300"
           >
             About
@@ -26,6 +28,7 @@ export default function Navbar() {
           <Link to="education"
             smooth={true}
             duration={1000}
+            offset={-90}
             className="mr-5 hover:text-white font-light text-slate-300"
           >
             Education
@@ -34,6 +37,7 @@ export default function Navbar() {
             to="experiences"
             smooth={true}
             duration={1000}
+            offset={-90} 
             className="mr-5 hover:text-white font-light text-slate-300"
           >
             Experiences
@@ -42,6 +46,7 @@ export default function Navbar() {
             to="projects"
             smooth={true}
             duration={1000}
+            offset={-90} 
             className="mr-5 hover:text-white font-light text-slate-300"
           >
             Projects
@@ -50,6 +55,7 @@ export default function Navbar() {
             to="skills"
             smooth={true}
             duration={1000}
+            offset={-90}
             className="mr-5 hover:text-white font-light text-slate-300"
           >
             Skills
