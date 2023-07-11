@@ -1,5 +1,4 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown';
 import { education } from "../data";
 import { BriefcaseIcon, ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/solid";
 import { Transition } from "@headlessui/react";
