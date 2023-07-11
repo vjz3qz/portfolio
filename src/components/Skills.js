@@ -28,3 +28,5 @@ export default function Skills() {
     </section>
   );
 }
+
+// update to have sections: concepts, languages, databases

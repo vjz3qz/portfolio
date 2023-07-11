@@ -39,12 +39,12 @@ export default function About() {
 
           <div className="flex justify-center sm:justify-start">
             <a
-              href="https://github.com/vjz3qz"
+              href="https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing"
               className="inline-flex text-slate-200 font-light bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               Resume
             </a>
             <a
-              href="https://www.linkedin.com/in/varunpasupuleti/"
+              href="https://drive.google.com/file/d/1fARyClaRUMjvWJvzSu73BgOCcF9Z4AlZ/view?usp=drive_link"
               className="ml-4 inline-flex text-slate-200 font-light bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
             >
               Transcript

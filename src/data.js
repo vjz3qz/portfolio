@@ -72,7 +72,7 @@ export const projects = [
     },
     {
       title: "Socket Chat",
-      subtitle: "C, Socket Programming",
+      subtitle: "C, Unix/Linux, Socket Programming",
       description:
         "Socket Chat is a basic chat program written in C that enables real-time communication between two users over a network. It uses sockets to establish connections.",
       image: "/socketchat.png",

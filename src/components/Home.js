@@ -19,7 +19,7 @@ export default function Home() {
             I'm Varun Pasupuleti. 
           </h1>
           <p className=" text-md md:text-lg mb-8 leading-relaxed font-light text-white">
-          I'm a student and software engineer who is deeply passionate about my work. I love tackling challenging problems, even when faced with narrow constraints. I am relentless in my pursuit of improvement and thrive in challenging situations. I actively seek a fast-paced and dynamic work environment that appreciates problem-solving as much as I do.
+          I'm a <span className="font-normal">student</span> and <span className="font-normal">software engineer</span> who is deeply passionate about my work. I love tackling challenging problems, even when faced with narrow constraints. I am relentless in my pursuit of improvement and thrive in challenging situations. I actively seek a fast-paced and dynamic work environment that appreciates problem-solving as much as I do.
           </p>
           <div className="flex justify-center">
             <a
