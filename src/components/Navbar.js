@@ -9,7 +9,7 @@ export default function Navbar() {
           <Link to="home"
             smooth={true}
             duration={1000}
-            offset={-70}
+            offset={-75}
             className="ml-3 text-xl"
           >
             Varun Pasupuleti
