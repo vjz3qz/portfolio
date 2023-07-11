@@ -24,6 +24,7 @@ export default function Home() {
           I'm a <span className="font-normal">student</span> and <span className="font-normal">software engineer</span> who is deeply passionate about my work. I love tackling challenging problems, even when faced with narrow constraints. I am relentless in my pursuit of improvement and thrive in challenging situations. I actively seek a fast-paced and dynamic work environment that appreciates problem-solving as much as I do.
           </p>
           <div className="flex justify-center">
+          
             <a
               href="https://github.com/vjz3qz"
               className="inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded text-lg">
@@ -34,6 +35,12 @@ export default function Home() {
               className="ml-4 inline-flex text-white bg-sky-700 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 hover:text-white rounded text-lg"
             >
               LinkedIn
+            </a>
+
+            <a
+              href="https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing"
+              className="ml-4 inline-flex text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 hover:text-white rounded text-lg">
+              Resume
             </a>
           </div>
         </div>

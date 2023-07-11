@@ -1,25 +1,65 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown';
 import { experiences } from "../data";
-import { BriefcaseIcon } from "@heroicons/react/solid";
-
+import { BriefcaseIcon, ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/solid";
+import { Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 
 function IndividualExperience({ experience }) {
   return (
-    <div className="p-5 m-5">
-      <h3 className="title-font text-xl text-white">{experience.company}</h3>
-      <p className=" p-1 m-1 text-slate-200"><span className="font-serif italic">{experience.position}</span> |{" "}
-        <span className="font-light">{experience.time}</span></p>
-      <ul>
-        {experience.description.map((bullet, index) => (
-          <li key={`${bullet}-${index}`} className="font-light p-1 m-1 leading-relaxed text-slate-200">
-            • <ReactMarkdown components={{
-              a: ({node, ...props}) => <a className="underline" {...props} />,
-              p: ({node, ...props}) => <span {...props} />
-            }}>{bullet}</ReactMarkdown>
-          </li>
-        ))}
-      </ul>
+    <div className="p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-gray-700 bg-gray-800 opacity-80 hover:opacity-90">
+
+
+      <Disclosure>
+        {({ open }) => (
+          <>
+            <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+              <div className="flex">
+
+                <div>{experience.logo && (
+                  <img src={`${process.env.PUBLIC_URL}` + experience.logo} alt={`${experience.company} logo`} className="w-10 h-auto pr-2 mr-2 mt-2" />
+                )}</div>
+                <div>
+
+                  <div className="flex items-center">
+                    <h3 className="title-font text-xl text-white mb-2">{experience.company}</h3>
+                  </div>
+                  <div>
+
+                    <p className="text-white mb-2"><span className="font-semibold">{experience.position}</span> •{" "}
+                      <span className="font-light">{experience.time}</span></p>
+                  </div>
+                </div>
+              </div>
+              <div>
+          {open ? <ChevronUpIcon className="h-6 w-6" /> : <ChevronDownIcon className="h-6 w-6" />}
+        </div>
+            </Disclosure.Button>
+            <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white">
+              <ul>
+                {experience.description.map((bullet, index) => (
+                  <li key={`${bullet}-${index}`} className="font-light p-1 m-1 leading-relaxed text-slate-200">
+                    • <ReactMarkdown components={{
+                      a: ({ node, ...props }) => <a className="text-green-400 underline" {...props} />,
+                      p: ({ node, ...props }) => <span {...props} />
+                    }}>{bullet}</ReactMarkdown>
+                  </li>
+                ))}
+              </ul>
+            {experience.skills && 
+            (experience.skills.map((skill, index) => (
+              
+            <p key={`${skill}-${index}`}
+              className="p-1 m-1 text-sm text-white inline-flex font-light border-1 focus:outline-none bg-gray-600 hover:text-white rounded"
+            >
+              {skill}
+            </p>
+            )))
+            }
+            </Disclosure.Panel>
+          </>
+        )}
+      </Disclosure>
     </div>
   );
 }
@@ -27,24 +67,33 @@ function IndividualExperience({ experience }) {
 function ExperienceList({ experiences }) {
   return (
     <section className="mx-auto px-5 sm:px-20">
-      <div className="w-full sm:w-9/10 md:w-4/5 lg:w-2/3 mx-auto text-center sm:text-left">
+      <div className="w-full sm:w-9/10 md:w-4/5 lg:w-2/3 mx-auto text-left">
         {experiences.map((experience) => (
-          <IndividualExperience key={experience.company} experience={experience} />
+          <Transition
+            key={experience.company}
+            appear={true}
+            show={true}
+            enter="transition ease-in duration-200 transform"
+            enterFrom="opacity-0 scale-95"
+            enterTo="opacity-100 scale-100"
+            leave="transition ease-in duration-200 transform"
+            leaveFrom="opacity-100 scale-100"
+            leaveTo="opacity-0 scale-95"
+          >
+            <IndividualExperience experience={experience} />
+          </Transition>
         ))}
       </div>
     </section>
   );
 }
 
-
-
-
 function Experiences() {
   return (
     <section id="experiences">
       <div>
         <div className="px-5 mx-auto text-center">
-        <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
+          <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Experiences
           </h1>

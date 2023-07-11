@@ -38,20 +38,6 @@ export default function About() {
                 vjz3qz@virginia.edu
               </p>
             </div>
-
-          <div className="flex justify-center sm:justify-start">
-            <a
-              href="https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing"
-              className="inline-flex text-slate-200 font-light bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Resume
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1fARyClaRUMjvWJvzSu73BgOCcF9Z4AlZ/view?usp=drive_link"
-              className="ml-4 inline-flex text-slate-200 font-light bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-            >
-              Transcript
-            </a>
-          </div>
           </div>
         </div>
         <div className="hidden sm:block w-full mx-auto col-span-1 pl-5">
