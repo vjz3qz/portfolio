@@ -6,12 +6,12 @@ import { AcademicCapIcon } from "@heroicons/react/solid";
 function IndividualEducation({ education }) {
     return (
       <div className="p-5 m-5">
-      <h3 className="title-font text-white">{education.school}</h3>
-      <p className=" p-1 m-1 leading-relaxed text-slate-300"><span className="font-serif italic ">{education.degree + ", " + education.major}</span> |{" "}
+      <h3 className="title-font text-xl text-white">{education.school}</h3>
+      <p className=" p-1 m-1 leading-relaxed text-slate-200"><span className="font-serif italic ">{education.degree + ", " + education.major}</span> |{" "}
           <span className="font-light">{education.time}</span></p>
       <p className=" p-1 m-1 leading-relaxed text-slate-3000">
-          <span className="font-light leading-relaxed text-slate-300">{education.gpa} | Dean's List</span></p>
-          <p className="p-1 m-1 leading-relaxed text-slate-300">Relavent Coursework: <span className="font-light">{education.coursework}</span></p>
+          <span className="font-light leading-relaxed text-slate-200">{education.gpa} | Dean's List</span></p>
+          <p className="p-1 m-1 leading-relaxed text-slate-200">Relavent Coursework: <span className="font-light">{education.coursework}</span></p>
       </div>
     );
   }

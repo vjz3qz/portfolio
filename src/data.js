@@ -28,7 +28,7 @@ export const experiences = [
       description:
         [
             "Designed a database manager application with the MERN stack, enabling authenticated users to manage station-wide door permissions for 100+ members.",
-            "Optimized and deployed the CARS Access Control using C/C++ and Python. Reduced server CPU usage by 90% at idle and improved the average processing speed from 5 seconds to 1."
+            "Optimized and deployed the [CARS Access Control](https://github.com/vjz3qz/carsac) using C/C++ and Python. Reduced server CPU usage by 90% at idle and improved the average processing speed from 5 seconds to 1."
         ],
     },
     {
@@ -38,7 +38,7 @@ export const experiences = [
       time: "April 2022 – Present",
       description:
         [
-          "Developed predictive machine learning models for human metabolic networks using MATLAB and Python (Pandas, Scikit-Learn), achieving a 94% accuracy in disease state predictions.",
+          "Developed predictive [machine learning models](https://github.com/vjz3qz/cancer-metabolic-analysis) for human metabolic networks using MATLAB and Python (Pandas, Scikit-Learn), achieving a 94% accuracy in disease state predictions.",
           "Created Bash scripts for parallel processing of model fine-tuning across multiple datasets in a Linux environment, leveraging an HPC system.",
           "Recognized with the [GIDI-UP: Summer Research Award](https://gidi.virginia.edu/gidiup-summer-research-award) and awarded a grant of $10,000."
         ],

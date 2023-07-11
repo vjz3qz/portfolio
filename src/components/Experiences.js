@@ -7,12 +7,12 @@ import { BriefcaseIcon } from "@heroicons/react/solid";
 function IndividualExperience({ experience }) {
   return (
     <div className="p-5 m-5">
-      <h3 className="title-font text-white">{experience.company}</h3>
-      <p className=" p-1 m-1 text-slate-300"><span className="font-serif italic">{experience.position}</span> |{" "}
+      <h3 className="title-font text-xl text-white">{experience.company}</h3>
+      <p className=" p-1 m-1 text-slate-200"><span className="font-serif italic">{experience.position}</span> |{" "}
         <span className="font-light">{experience.time}</span></p>
       <ul>
         {experience.description.map((bullet, index) => (
-          <li key={`${bullet}-${index}`} className="font-light p-1 m-1 leading-relaxed text-slate-300">
+          <li key={`${bullet}-${index}`} className="font-light p-1 m-1 leading-relaxed text-slate-200">
             • <ReactMarkdown components={{
               a: ({node, ...props}) => <a className="underline" {...props} />,
               p: ({node, ...props}) => <span {...props} />
