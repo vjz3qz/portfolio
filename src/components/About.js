@@ -19,9 +19,11 @@ export default function About() {
                 About Me
               </h1>
               <p className="font-light mb-8 leading-relaxed text-slate-200">
-                I'm currently studying Computer Science at the University of Virginia. 
-                After graduation, I hope to move to a large metropolitan city and work as a Software Engineer. 
-                Some of my interests include working out, hiking, playing chess, playing basketball, site-seeing, and enjoying nature.
+              I'm currently studying Computer Science student at the University of Virginia. 
+              After graduation, I aspire to work a Software Engineer in a large metropolitan city. 
+              Alongside my passion for technology, I love maintaining an active lifestyle that includes 
+              weight lifting, running, hiking, playing chess, and basketball. 
+              Beyond my academic pursuits, I also devote my time as a volunteer EMT.
               </p>
             </div>
             <div>
