@@ -20,7 +20,7 @@ export default function About() {
             </h1>
             <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
               I'm currently studying Computer Science at the University of Virginia. 
-              After graduation, I aspire to work a Software Engineer in a large metropolitan city. 
+              After graduation, I aspire to work as a Software Engineer in a large metropolitan city. 
               Alongside my passion for technology, I love maintaining an active lifestyle that includes 
               weight lifting, running, hiking, playing chess, and basketball. 
               Beyond my academic pursuits, I also devote my time as a volunteer Emergency Medical Technician (EMT).
