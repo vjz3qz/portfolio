@@ -18,13 +18,15 @@ export default function Projects() {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt={project.title}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={`${process.env.PUBLIC_URL}`+project.image}
-                />
-                <div className="px-8 py-10 relative z-auto  shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl  w-full border-4 border-gray-800 bg-gray-900 opacity-80 hover:opacity-90">
+              <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-gray-800 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
+                <div className="absolute inset-0">
+                  <img
+                    alt={project.title}
+                    className="w-full h-full object-cover object-center transform transition duration-500 ease-in-out hover:scale-105"
+                    src={`${process.env.PUBLIC_URL}`+project.image}
+                  />
+                </div>
+                <div className="px-8 py-10 relative z-10 shadow-lg hover:shadow-2xl bg-gray-900 opacity-80 hover:opacity-85">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
