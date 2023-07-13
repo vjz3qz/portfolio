@@ -24,7 +24,7 @@ export default function Navbar() {
             smooth={true}
             duration={1000}
             offset={-90}
-            className="mr-5 hover:text-white font-light text-slate-300"
+            className="mr-5 hover:text-white font-light text-slate-200"
           >
             About
           </Link>
@@ -34,7 +34,7 @@ export default function Navbar() {
             smooth={true}
             duration={1000}
             offset={-90}
-            className="mr-5 hover:text-white font-light text-slate-300"
+            className="mr-5 hover:text-white font-light text-slate-200"
           >
             Education
           </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
             smooth={true}
             duration={1000}
             offset={-90}
-            className="mr-5 hover:text-white font-light text-slate-300"
+            className="mr-5 hover:text-white font-light text-slate-200"
           >
             Experiences
           </Link>
@@ -54,7 +54,7 @@ export default function Navbar() {
             smooth={true}
             duration={1000}
             offset={-90}
-            className="mr-5 hover:text-white font-light text-slate-300"
+            className="mr-5 hover:text-white font-light text-slate-200"
           >
             Projects
           </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
             smooth={true}
             duration={1000}
             offset={-90}
-            className="mr-5 hover:text-white font-light text-slate-300"
+            className="mr-5 hover:text-white font-light text-slate-200"
           >
             Skills
           </Link>
