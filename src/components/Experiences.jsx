@@ -57,66 +57,55 @@ function IndividualExperience({ experience }) {
         {({ open }) => (
           <>
             <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-white bg-gray-800 hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-              <div className="flex">
-                <div>
-                  {logo && (
-                    <img
-                      src={`${process.env.PUBLIC_URL}` + logo}
-                      alt={`${company} logo`}
-                      className="w-10 h-auto pr-2 mr-2 mt-2"
-                    />
-                  )}
-                </div>
-                <div>
-                  <div className="flex items-center">
-                    <h3 className="title-font text-xl text-white mb-2">
-                      {company}
-                    </h3>
-                  </div>
-                  <div>
-                    <p className="text-white mb-2">
-                      <span className="font-semibold">
-                        {position}
-                      </span>{" "}
-                      • <span className="font-light">{time}</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                {open ? (
-                  <ChevronUpIcon className="h-6 w-6" />
-                ) : (
-                  <ChevronDownIcon className="h-6 w-6" />
-                )}
-              </div>
+              <ExperienceHeader {...{ logo, company, position, time }} />
+              <ChevronIcon open={open} />
             </Disclosure.Button>
             <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white">
-              <ul>
-                {description.map((bullet, index) => (
-                  <li
-                    key={`${bullet}-${index}`}
-                    className="font-light p-1 m-1 leading-relaxed text-slate-200"
-                  >
-                    •{" "}
-                    <ReactMarkdown
-                      components={{
-                        a: ({ node, ...props }) => (
-                          <a className="text-green-400 underline" {...props} />
-                        ),
-                        p: ({ node, ...props }) => <span {...props} />,
-                      }}
-                    >
-                      {bullet}
-                    </ReactMarkdown>
-                  </li>
-                ))}
-              </ul>
+              <ExperienceDescription description={description} />
               {skills && <ExperienceSkills skills={skills} />}
             </Disclosure.Panel>
           </>
         )}
       </Disclosure>
+    </div>
+  );
+}
+
+function ExperienceHeader({ logo, company, position, time }) {
+  return (
+    <div className="flex">
+      <div>
+        {logo && (
+          <img
+            src={`${process.env.PUBLIC_URL}` + logo}
+            alt={`${company} logo`}
+            className="w-10 h-auto pr-2 mr-2 mt-2"
+          />
+        )}
+      </div>
+      <div>
+        <div className="flex items-center">
+          <h3 className="title-font text-xl text-white mb-2">{company}</h3>
+        </div>
+        <div>
+          <p className="text-white mb-2">
+            <span className="font-semibold">{position}</span> •{" "}
+            <span className="font-light">{time}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ChevronIcon({ open }) {
+  return (
+    <div>
+      {open ? (
+        <ChevronUpIcon className="h-6 w-6" />
+      ) : (
+        <ChevronDownIcon className="h-6 w-6" />
+      )}
     </div>
   );
 }
