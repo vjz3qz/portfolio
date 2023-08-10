@@ -20,7 +20,13 @@ export default function Navbar() {
         </span>
 
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center  text-sm sm:text-base justify-center">
-          {[['About', 'about'], ['Education', 'education'], ['Experiences', 'experiences'], ['Projects', 'projects'], ['Skills', 'skills']].map(([text, id]) => (
+          {[
+            ["About", "about"],
+            ["Education", "education"],
+            ["Experiences", "experiences"],
+            ["Projects", "projects"],
+            ["Skills", "skills"],
+          ].map(([text, id]) => (
             <button>
               <Link
                 to={id}
@@ -31,7 +37,8 @@ export default function Navbar() {
               >
                 {text}
               </Link>
-            </button>))}
+            </button>
+          ))}
         </nav>
       </div>
     </header>

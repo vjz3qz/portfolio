@@ -12,21 +12,23 @@ function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <Home />
-
-      <hr className="w-0 h-0 mx-auto mb-10 bg-gray-100 border-0 rounded md:mb-10 dark:bg-gray-700"></hr>
-
+      <HorizontalRule />
       <About />
-        <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <HorizontalRule />
       <Education />
-        <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <HorizontalRule />
       <Experiences />
-
-      <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <HorizontalRule />
       <Projects />
-
-      <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+      <HorizontalRule />
       <Skills />
     </main>
+  );
+}
+
+function HorizontalRule() {
+  return (
+    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
   );
 }
 
