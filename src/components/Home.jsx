@@ -14,7 +14,7 @@ export default function Home() {
         position: "relative",
       }}
     >
-      <div className="container mx-auto flex px-10 py-20 md:py-36 lg:py-48 md:flex-row flex-col items-center">
+      <div className="container mx-auto flex px-10 py-20 md:py-36 lg:py-48 md:flex-row flex-col items-center animate-fadeIn">
         <div className="md:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font text-5xl sm:text-6xl md:text-7xl mb-4 font-medium text-white">
             I'm Varun Pasupuleti.
