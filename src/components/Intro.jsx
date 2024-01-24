@@ -52,7 +52,7 @@ class Intro extends React.Component {
                     "bg-sky-700 hover:bg-sky-800 hover:text-white ml-4",
                   ],
                   [
-                    "https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing",
+                    "https://drive.google.com/file/d/1A_I2gLx2rD8O8UnvSRlLXWtl-5ToX8qY/view?usp=drive_link",
                     "Resume",
                     "bg-gray-700 hover:bg-gray-800 hover:text-white ml-4",
                   ],

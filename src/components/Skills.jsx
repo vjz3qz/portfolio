@@ -2,6 +2,24 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
+function SkillCategory({ title, skills }) {
+  return (
+    <div>
+      <h2 className="text-center text-sm lg:text-lg font-medium text-white mb-4">
+        {title}
+      </h2>
+      {skills.map((skill) => (
+        <div key={skill} className="p-2">
+          <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+            <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+            <span className="title-font font-medium text-white">{skill}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function Skills() {
   return (
     <section id="skills">
@@ -12,21 +30,15 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
-          ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <SkillCategory title="Languages" skills={skills.languages} />
+          <SkillCategory title="Frameworks" skills={skills.frameworks} />
+          <SkillCategory title="Concepts" skills={skills.concepts} />
+          <SkillCategory title="DevOps" skills={skills.devops} />
+          <SkillCategory title="Databases" skills={skills.databases} />
+          <SkillCategory title="Machine Learning" skills={skills.ml} />
         </div>
       </div>
     </section>
   );
 }
-
-// update to have sections: concepts, languages, databases
