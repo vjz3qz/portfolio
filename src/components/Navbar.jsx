@@ -1,46 +1,93 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-scroll";
 
-export default function Navbar() {
-  return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <span className="title-font font-light text-white mb-4 md:mb-0">
-          <button>
-            <Link
-              to="home"
-              smooth={true}
-              duration={1000}
-              offset={-75}
-              className="ml-3 text-xl"
-            >
-              Varun Pasupuleti
-            </Link>
-          </button>
-        </span>
+const NavBar = () => {
+  const [nav, setNav] = useState(false);
+  const [navBorder, setNavBorder] = useState("");
 
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center  text-sm sm:text-base justify-center">
-          {[
-            ["About", "about"],
-            ["Education", "education"],
-            ["Experiences", "experiences"],
-            ["Projects", "projects"],
-            ["Skills", "skills"],
-          ].map(([text, id]) => (
-            <button>
-              <Link
-                to={id}
-                smooth={true}
-                duration={1000}
-                offset={-90}
-                className="mr-5 hover:text-white font-light text-slate-200"
-              >
-                {text}
-              </Link>
-            </button>
-          ))}
-        </nav>
+  const handleNav = () => {
+    setNav(!nav);
+  };
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setNavBorder("border-4 border-gray-700 bg-gray-800");
+      } else {
+        setNavBorder("");
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
+
+  return (
+    <div className="fixed left-0 right-0 top-0 w-full z-10 ">
+      <div className="m-2">
+        <div
+          className={`max-w-[1240px] m-auto flex justify-between items-center p-4 rounded-xl ease-in duration-200 ${navBorder}`}
+        >
+          <Link to="home" smooth={true} duration={1000} offset={-75}>
+            <h1 className="text-4xl text-white">{"{  VP  }"}</h1>
+          </Link>
+          <ul className="mr-2 hidden sm:flex">
+            {[
+              ["About", "about"],
+              ["Education", "education"],
+              ["Experiences", "experiences"],
+              ["Projects", "projects"],
+              ["Skills", "skills"],
+            ].map(([text, id]) => (
+              <li className="p-4">
+                <Link to={id} smooth={true} duration={1000} offset={-90}>
+                  <p className="text-slate-300 hover:text-white">{text}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          {/* Mobile Button */}
+          <div onClick={handleNav} className="block sm:hidden z-10 mr-2">
+            {nav ? (
+              <AiOutlineClose size={20} style={{ color: `#ffffff` }} />
+            ) : (
+              <AiOutlineMenu size={20} style={{ color: `#ffffff` }} />
+            )}
+          </div>
+          {/* Mobile Menu */}
+          <div
+            className={
+              nav
+                ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-900 text-center ease-in duration-300"
+                : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-900 text-center ease-in duration-300"
+            }
+          >
+            <ul>
+              {[
+                ["About", "about"],
+                ["Education", "education"],
+                ["Experiences", "experiences"],
+                ["Projects", "projects"],
+                ["Skills", "skills"],
+              ].map(([text, id]) => (
+                <li className="p-4 text-4xl">
+                  <Link
+                    to={id}
+                    onClick={handleNav}
+                    smooth={true}
+                    duration={1000}
+                    offset={-90}
+                  >
+                    <p className="text-slate-300 hover:text-white">{text}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
-    </header>
+    </div>
   );
-}
+};
+
+export default NavBar;

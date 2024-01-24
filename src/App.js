@@ -4,15 +4,16 @@ import Experiences from "./components/Experiences";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Home from "./components/Home";
 import Education from "./components/Education";
+import Intro from "./components/Intro";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
-      <Home />
-      <HorizontalRule />
+      <Intro />
+      <TransparentRule />
       <About />
       <HorizontalRule />
       <Education />
@@ -22,6 +23,8 @@ function App() {
       <Projects />
       <HorizontalRule />
       <Skills />
+      <HorizontalRule />
+      <Footer />
     </main>
   );
 }
@@ -29,6 +32,12 @@ function App() {
 function HorizontalRule() {
   return (
     <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+  );
+}
+
+function TransparentRule() {
+  return (
+    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-transparent border-0 rounded md:my-10 dark:bg-gray-700"></hr>
   );
 }
 
