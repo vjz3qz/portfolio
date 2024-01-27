@@ -23,13 +23,13 @@ class Intro extends React.Component {
                       "Software Engineer",
                       "Founder", // "Founder of <a href='https://www.traceai.org'>Trace AI</a>",
                       "Machine Learning Researcher",
-                      "Weight Lifter",
                       "Computer Science Graduate",
                       "Life-Long Learner",
                       "Back End Developer",
                       "Problem Solver",
                       "Emergency Medical Technician",
                       "DevOps Engineer",
+                      "Weight Lifter",
                     ]}
                     typeSpeed={80}
                     backDelay={1100}

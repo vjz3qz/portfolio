@@ -15,10 +15,10 @@ export const education = [
 export const experiences = [
   {
     company: "Trace AI",
-    logo: "/images/traceai.jpg",
+    logo: "/images/traceai.png",
     position: "Founding Software Engineer",
-    location: "San Francisco, VA",
-    time: "Octover 2023 – Present",
+    location: "San Francisco, CA",
+    time: "October 2023 – Present",
     description: [
       "Built an AI-powered knowledge base for industrial facilities, using React, Flutter, Flask, and PostgreSQL.",
       "Led the end-to-end development of Trace AI’s platform, from user research and product management to DevOps, testing, and CI/CD. Managed a team of 3 developers using Agile and Kanban methods.",
