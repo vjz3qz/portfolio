@@ -10,6 +10,16 @@ export const education = [
     coursework:
       "Data Structures & Algorithms, Software Development, Machine Learning, Operating Systems, Computer Architecture, Cybersecurity, Discrete Mathematics, Linear Algebra, Probability, Statistics, Calculus, & Physics",
   },
+  // {
+  //   school: "Academies of Loudoun",
+  //   logo: "/images/acl.jpeg",
+  //   degree: "Advanced Studies Diploma",
+  //   degreeAbbreviation: "Advanced Studies Diploma",
+  //   major: "Computer Science",
+  //   time: "August 2019 – May 2021",
+  //   gpa: "4.50",
+  //   coursework: "Data Structures & Algorithms, Calculus, & Physics",
+  // },
 ];
 
 export const experiences = [
@@ -52,6 +62,24 @@ export const experiences = [
       "Generative AI",
     ],
   },
+  // {
+  //   company: "Unusual Ventures",
+  //   logo: "/images/unusualventures_logo.jpeg",
+  //   position: "University Founder Fellow",
+  //   location: "San Francisco, CA",
+  //   time: "March 2024 – Present",
+  //   description: ["Building Trace AI in the Spring 2024 Cohort."],
+  //   skills: [],
+  // },
+  // {
+  //   company: "Free Ventures",
+  //   logo: "/images/free_ventures_logo.jpeg",
+  //   position: "Accelerator Member",
+  //   location: "San Francisco, CA",
+  //   time: "February 2024 – Present",
+  //   description: ["Building Trace AI."],
+  //   skills: [],
+  // },
   {
     company: "Charlottesville Albemarle Rescue Squad",
     logo: "/images/cars.webp",
@@ -73,10 +101,19 @@ export const experiences = [
       "MongoDB",
     ],
   },
+  // {
+  //   company: "AI Entrepreneurs at Berkeley",
+  //   logo: "/images/aieb.jpeg",
+  //   position: "Accelerator Member",
+  //   location: "San Francisco, CA",
+  //   time: "September 2023 – November 2023",
+  //   description: ["Won the Fall 2023 Demo Day for Trace AI."],
+  //   skills: [],
+  // },
   {
     company: "Freddie Mac",
     logo: "/images/freddiemac.png",
-    position: "Software Engineering Intern",
+    position: "Software Engineer Intern",
     location: "McLean, VA",
     time: "May 2023 – August 2023",
     description: [
@@ -88,7 +125,7 @@ export const experiences = [
   {
     company: "Computation Systems Biology Lab at the University of Virginia",
     logo: "/images/uva.png",
-    position: "Undergraduate Research Assistant",
+    position: "Machine Learning Researcher",
     location: "Charlottesville, VA",
     time: "April 2022 – October 2023",
     description: [
@@ -106,6 +143,23 @@ export const experiences = [
       "MATLAB",
     ],
   },
+  // {
+  //   company: "Aluna Research Group",
+  //   logo: "/images/aluna_research_group_logo.jpeg",
+  //   position: "Co-Founder",
+  //   location: "Ashburn, VA",
+  //   time: "Jun 2020 - Jun 2021",
+  //   description: [
+  //     "Led an artificial intelligence research group with a focus on biomedical applications to provide high school students the opportunity to collaborate on research projects.",
+  //   ],
+  //   skills: [
+  //     "Python",
+  //     "Machine Learning",
+  //     "Deep Learning",
+  //     "Random Forest",
+  //     "Unix/Linux",
+  //   ],
+  // },
 ];
 
 export const projects = [
