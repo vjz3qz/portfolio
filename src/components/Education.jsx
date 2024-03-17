@@ -58,6 +58,8 @@ function IndividualEducation({ education }) {
               <p className="p-1 m-1 leading-relaxed text-slate-200">
                 <a
                   href="https://drive.google.com/file/d/1EsER8C0OhnaPGRB3DyFMGxqUGhrEoM3o/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className=" text-sm text-white underline inline-flex font-light border-1 focus:outline-none  hover:bg-gray-700 hover:text-white rounded"
                 >
                   Relavent Coursework (Click to view Transcript):
