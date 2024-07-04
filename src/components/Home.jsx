@@ -38,7 +38,7 @@ export default function Home() {
               [
                 "https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing",
                 "Resume",
-                "bg-amber-100 hover:bg-neutral-800 hover:text-white ml-4",
+                "bg-warmGray-100 hover:bg-neutral-800 hover:text-white ml-4",
               ],
             ].map(([link, text, style]) => (
               <a

@@ -14,7 +14,7 @@ export default function About() {
 
       <div className="container mx-auto lg:max-w-screen-md px-10 pt-5 grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
         <div className="md:col-span-1">
-          <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-amber-100 bg-neutral-800 opacity-80 hover:opacity-90">
+          <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90">
             <h1 className="text-center  sm:text-2xl text-xl mb-4 font-medium text-white">
               About Me
             </h1>
@@ -28,7 +28,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-amber-100 bg-neutral-800 opacity-80 hover:opacity-90">
+          <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90">
             <h1 className="text-center  sm:text-2xl text-xl mb-4 font-medium text-white">
               Contact Me
             </h1>
@@ -44,7 +44,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="md:col-span-1 p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-amber-100 bg-neutral-800 opacity-80 hover:opacity-90 sm:block hidden">
+        <div className="md:col-span-1 p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90 sm:block hidden">
           <img
             className="object-cover object-center rounded"
             alt="hero"

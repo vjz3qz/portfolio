@@ -20,7 +20,7 @@ export default function Projects() {
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-amber-100 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
+              <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-warmGray-100 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
                 <div className="absolute inset-0">
                   <img
                     alt={project.title}
