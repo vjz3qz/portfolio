@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-neutral-900 body-font">
+    <main className="text-gray-400 bg-neutral-900 font-serif">
       <Navbar />
       <Intro />
       <TransparentRule />
@@ -31,13 +31,13 @@ function App() {
 
 function HorizontalRule() {
   return (
-    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-warmGray-100"></hr>
+    <hr className="w-1/2 h-0.5 mx-auto my-20 bg-gray-100 border-0 rounded dark:bg-warmGray-100"></hr>
   );
 }
 
 function TransparentRule() {
   return (
-    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-transparent border-0 rounded md:my-10"></hr>
+    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-transparent border-0 rounded"></hr>
   );
 }
 
