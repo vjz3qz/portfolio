@@ -29,12 +29,12 @@ export default function Projects() {
                   />
                 </div>
                 <div className="px-8 py-10 relative z-10 shadow-lg hover:shadow-2xl bg-gray-900 opacity-80 hover:opacity-85">
-                  <h2 className="tracking-widest text-sm  font-medium text-blue-300 mb-1">
-                    {project.subtitle}
-                  </h2>
                   <h1 className=" text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
+                  <h2 className="tracking-widest text-sm  font-medium text-blue-300 py-4">
+                    {project.subtitle}
+                  </h2>
                   <p className="leading-relaxed text-white">
                     {project.description}
                   </p>
