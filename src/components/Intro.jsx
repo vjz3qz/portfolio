@@ -7,17 +7,15 @@ import { ChevronDownIcon } from "@heroicons/react/solid";
 class Intro extends React.Component {
   render() {
     return (
-      // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro">
-        {/* <div id="home" className="intro route bg-image background">
+      <div id="home" className="intro route bg-image background">
         <div id="stars" />
         <div id="stars2" />
-        <div id="stars3" /> */}
+        <div id="stars3" />
 
         <div className="intro-content display-table">
           <div className="table-cell">
             <div>
-              <h1 className="intro-title mb-6 mt-32">I'm Varun Pasupuleti.</h1>
+              <h1 className="intro-title mb-6 mt-48">I'm Varun Pasupuleti.</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
