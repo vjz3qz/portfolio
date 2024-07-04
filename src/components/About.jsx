@@ -20,17 +20,17 @@ export default function About() {
             </h1>
             <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
               I'm a Computer Science student, Machine Learning Researcher, and
-              Founder at the University of Virginia passionate about leveraging
-              tech for positive change. Outside of my academic/professional
-              pursuits, I lead an active lifestyle, enjoying weight lifting,
-              running, hiking, chess, and basketball. As a volunteer EMT, I'm
-              committed to community service.
+              Software Engineer at the University of Virginia passionate about
+              leveraging tech for positive change. Outside of my
+              academic/professional pursuits, I lead an active lifestyle,
+              enjoying weight lifting, running, hiking, chess, and basketball.
+              As a volunteer EMT, I'm committed to community service.
             </p>
           </div>
 
           <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90">
             <h1 className="text-center  sm:text-2xl text-xl mb-6 font-medium text-white">
-              Contact Me
+              Contact
             </h1>
             <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
               Varun Pasupuleti
