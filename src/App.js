@@ -13,7 +13,8 @@ function App() {
     <main className="text-gray-400 bg-neutral-900 font-serif">
       <Navbar />
       <Intro />
-      <TransparentRule />
+      {/* <TransparentRule /> */}
+      <HorizontalRule />
       <About />
       <HorizontalRule />
       <Education />

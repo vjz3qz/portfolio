@@ -6,10 +6,11 @@ class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro route bg-image background">
+      <div id="home" className="intro route">
+        {/* <div id="home" className="intro route bg-image background">
         <div id="stars" />
         <div id="stars2" />
-        <div id="stars3" />
+        <div id="stars3" /> */}
 
         <div className="intro-content display-table">
           <div className="table-cell">
