@@ -19,7 +19,7 @@ export default function Projects() {
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-gray-800 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
+              <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-amber-100 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
                 <div className="absolute inset-0">
                   <img
                     alt={project.title}
@@ -28,7 +28,7 @@ export default function Projects() {
                   />
                 </div>
                 <div className="px-8 py-10 relative z-10 shadow-lg hover:shadow-2xl bg-gray-900 opacity-80 hover:opacity-85">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-300 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
