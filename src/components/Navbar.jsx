@@ -13,7 +13,7 @@ const NavBar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setNavBorder("border-4 border-gray-700 bg-gray-800");
+        setNavBorder("bg-neutral-900 backdrop-blur-md bg-opacity-5");
       } else {
         setNavBorder("");
       }
@@ -22,10 +22,10 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className="fixed left-0 right-0 top-0 w-full z-10 ">
+    <div className={`fixed left-0 right-0 top-0 w-full z-10  ${navBorder}`}>
       <div className="m-2">
         <div
-          className={`max-w-[1240px] m-auto flex justify-between items-center p-4 rounded-xl ease-in duration-200 ${navBorder}`}
+          className={`max-w-[1240px] m-auto flex justify-between items-center p-4 rounded-xl ease-in duration-200`}
         >
           <Link to="home" smooth={true} duration={1000} offset={-75}>
             <h1 className="text-4xl text-white">{"{  VP  }"}</h1>
