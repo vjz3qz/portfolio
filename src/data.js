@@ -23,27 +23,27 @@ export const education = [
 ];
 
 export const experiences = [
-  {
-    company: "Trace AI",
-    logo: "/images/traceai.png",
-    position: "Co-Founder",
-    location: "San Francisco, CA",
-    time: "October 2023 – Present",
-    description: [
-      "Building an AI-powered prior authorization copilot for healthcare teams, and backed by Unusual Ventures.",
-    ],
-    skills: [
-      "React",
-      "Flutter",
-      "Flask",
-      "PostgreSQL",
-      "AWS",
-      "Supabase",
-      "CI/CD",
-      "Computer Vision",
-      "Generative AI",
-    ],
-  },
+  // {
+  //   company: "Trace AI",
+  //   logo: "/images/traceai.png",
+  //   position: "Co-Founder",
+  //   location: "San Francisco, CA",
+  //   time: "October 2023 – Present",
+  //   description: [
+  //     "Building an AI-powered prior authorization copilot for healthcare teams, and backed by Unusual Ventures.",
+  //   ],
+  //   skills: [
+  //     "React",
+  //     "Flutter",
+  //     "Flask",
+  //     "PostgreSQL",
+  //     "AWS",
+  //     "Supabase",
+  //     "CI/CD",
+  //     "Computer Vision",
+  //     "Generative AI",
+  //   ],
+  // },
   {
     company: "Bronco AI",
     logo: "/images/bronco_ai_logo.jpeg",
