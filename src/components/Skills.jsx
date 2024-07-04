@@ -5,7 +5,7 @@ import { skills } from "../data";
 function SkillCategory({ title, skills }) {
   return (
     <div>
-      <h2 className="text-center text-sm lg:text-lg font-medium text-white mb-6">
+      <h2 className="text-center text-sm lg:text-lg font-medium text-white mb-4">
         {title}
       </h2>
       {skills.map((skill) => (
@@ -24,7 +24,7 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 pb-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-10">
           {/* <ChipIcon className="w-10 inline-block mb-6" /> */}
           <h1 className="sm:text-4xl text-3xl font-medium  text-white mb-6">
             Skills &amp; Technologies
