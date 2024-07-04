@@ -13,7 +13,7 @@ const NavBar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setNavBorder("bg-neutral-900 backdrop-blur-md bg-opacity-5");
+        setNavBorder("bg-neutral-800 backdrop-blur-md bg-opacity-5");
       } else {
         setNavBorder("");
       }

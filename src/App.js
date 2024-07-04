@@ -31,7 +31,7 @@ function App() {
 
 function HorizontalRule() {
   return (
-    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+    <hr className="w-1/2 h-0.5 mx-auto my-10 bg-gray-100 border-0 rounded md:my-10 dark:bg-amber-100"></hr>
   );
 }
 

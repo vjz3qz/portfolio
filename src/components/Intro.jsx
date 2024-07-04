@@ -54,7 +54,7 @@ class Intro extends React.Component {
                   [
                     "https://drive.google.com/file/d/1A_I2gLx2rD8O8UnvSRlLXWtl-5ToX8qY/view?usp=drive_link",
                     "Resume",
-                    "bg-gray-700 hover:bg-gray-800 hover:text-white ml-4",
+                    "bg-gray-700 hover:bg-neutral-800 hover:text-white ml-4",
                   ],
                 ].map(([link, text, style]) => (
                   <a

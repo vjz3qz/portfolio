@@ -25,11 +25,26 @@ export default function Home() {
           </p>
           <div className="flex justify-center">
             {[
-              ["https://github.com/vjz3qz", "GitHub", "bg-green-600 hover:bg-green-700"],
-              ["https://www.linkedin.com/in/varunpasupuleti/", "LinkedIn", "bg-sky-700 hover:bg-sky-800 hover:text-white ml-4"],
-              ["https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing", "Resume", "bg-gray-700 hover:bg-gray-800 hover:text-white ml-4"],
+              [
+                "https://github.com/vjz3qz",
+                "GitHub",
+                "bg-green-600 hover:bg-green-700",
+              ],
+              [
+                "https://www.linkedin.com/in/varunpasupuleti/",
+                "LinkedIn",
+                "bg-sky-700 hover:bg-sky-800 hover:text-white ml-4",
+              ],
+              [
+                "https://drive.google.com/file/d/1qWdpYmH_BkTwdyRTWrV8SeYr2zgvDac6/view?usp=sharing",
+                "Resume",
+                "bg-amber-100 hover:bg-neutral-800 hover:text-white ml-4",
+              ],
             ].map(([link, text, style]) => (
-              <a href={link} className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${style}`}>
+              <a
+                href={link}
+                className={`inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded text-lg ${style}`}
+              >
                 {text}
               </a>
             ))}
