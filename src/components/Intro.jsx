@@ -71,7 +71,7 @@ class Intro extends React.Component {
                 ))}
               </div>
               {/* add down button */}
-              <div className="pt-36 flex justify-center">
+              <div className="pt-48 flex justify-center">
                 <Link to={"about"} smooth={true} duration={1000} offset={-90}>
                   <ChevronDownIcon className="h-10 w-10 text-white" />
                 </Link>
