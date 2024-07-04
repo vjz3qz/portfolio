@@ -103,9 +103,9 @@ function Education() {
     <section id="education">
       <div>
         <div className="px-5 mx-auto text-center">
-          <div className="mx-auto inline-block w-10 mb-4" />
-          {/* <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" /> */}
-          <h1 className="sm:text-4xl text-3xl font-medium  mb-4 text-white">
+          <div className="mx-auto inline-block w-10 mb-6" />
+          {/* <BriefcaseIcon className="mx-auto inline-block w-10 mb-6" /> */}
+          <h1 className="sm:text-4xl text-3xl font-medium  mb-6 text-white">
             Education
           </h1>
         </div>
