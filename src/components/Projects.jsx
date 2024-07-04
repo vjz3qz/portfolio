@@ -8,7 +8,7 @@ export default function Projects() {
       <div className="container px-5 pb-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium  mb-4 text-white">
             Apps I've Built
           </h1>
         </div>
@@ -28,10 +28,10 @@ export default function Projects() {
                   />
                 </div>
                 <div className="px-8 py-10 relative z-10 shadow-lg hover:shadow-2xl bg-gray-900 opacity-80 hover:opacity-85">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-300 mb-1">
+                  <h2 className="tracking-widest text-sm  font-medium text-blue-300 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className=" text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed text-slate-200">

@@ -6,7 +6,7 @@ export default function About() {
     <section id="about">
       <div className="px-5 mx-auto text-center">
         <BookOpenIcon className="mx-auto inline-block w-10 mb-4" />
-        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+        <h1 className="sm:text-4xl text-3xl font-medium  mb-4 text-white">
           About
         </h1>
       </div>
@@ -14,7 +14,7 @@ export default function About() {
       <div className="container mx-auto lg:max-w-screen-md px-10 pt-5 grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
         <div className="md:col-span-1">
           <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-amber-100 bg-neutral-800 opacity-80 hover:opacity-90">
-            <h1 className="text-center title-font sm:text-2xl text-xl mb-4 font-medium text-white">
+            <h1 className="text-center  sm:text-2xl text-xl mb-4 font-medium text-white">
               About Me
             </h1>
             <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
@@ -28,7 +28,7 @@ export default function About() {
           </div>
 
           <div className="p-5 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-amber-100 bg-neutral-800 opacity-80 hover:opacity-90">
-            <h1 className="text-center title-font sm:text-2xl text-xl mb-4 font-medium text-white">
+            <h1 className="text-center  sm:text-2xl text-xl mb-4 font-medium text-white">
               Contact Me
             </h1>
             <p className="text-center font-light mb-8 leading-relaxed text-slate-200">

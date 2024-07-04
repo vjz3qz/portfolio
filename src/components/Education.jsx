@@ -27,7 +27,7 @@ function IndividualEducation({ education }) {
                 </div>
                 <div>
                   <div className="flex items-center">
-                    <h3 className="title-font text-xl text-white mb-2">
+                    <h3 className=" text-xl text-white mb-2">
                       {education.school}
                     </h3>
                   </div>
@@ -104,7 +104,7 @@ function Education() {
       <div>
         <div className="px-5 mx-auto text-center">
           <BriefcaseIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium  mb-4 text-white">
             Education
           </h1>
         </div>
