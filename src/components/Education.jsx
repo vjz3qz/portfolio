@@ -105,7 +105,7 @@ function Education() {
         <div className="px-5 mx-auto text-center">
           <div className="mx-auto inline-block w-10 mb-8" />
           {/* <BriefcaseIcon className="mx-auto inline-block w-10 mb-8" /> */}
-          <h1 className="sm:text-4xl text-3xl font-medium  mb-6 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium  mb-10 text-white">
             Education
           </h1>
         </div>
