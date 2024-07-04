@@ -4,7 +4,7 @@ import { projects } from "../data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 body-font">
       <div className="container px-5 pb-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -17,13 +17,14 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl border-4 border-gray-800 bg-gray-900 opacity-80 hover:opacity-90 overflow-hidden">
                 <div className="absolute inset-0">
                   <img
                     alt={project.title}
                     className="w-full h-full object-cover object-center transform transition duration-500 ease-in-out hover:scale-105"
-                    src={`${process.env.PUBLIC_URL}`+project.image}
+                    src={`${process.env.PUBLIC_URL}` + project.image}
                   />
                 </div>
                 <div className="px-8 py-10 relative z-10 shadow-lg hover:shadow-2xl bg-gray-900 opacity-80 hover:opacity-85">
@@ -33,7 +34,9 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-slate-200">{project.description}</p>
+                  <p className="leading-relaxed text-slate-200">
+                    {project.description}
+                  </p>
                 </div>
               </div>
             </a>
