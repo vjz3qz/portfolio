@@ -55,7 +55,7 @@ function IndividualEducation({ education }) {
               </div>
             </Disclosure.Button>
             <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-white">
-              <p className="p-1 m-1 leading-relaxed text-slate-200">
+              <p className="p-1 m-1 leading-relaxed text-white">
                 <a
                   href="https://drive.google.com/file/d/1EsER8C0OhnaPGRB3DyFMGxqUGhrEoM3o/view?usp=drive_link"
                   target="_blank"

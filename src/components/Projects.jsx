@@ -35,7 +35,7 @@ export default function Projects() {
                   <h1 className=" text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed text-slate-200">
+                  <p className="leading-relaxed text-white">
                     {project.description}
                   </p>
                 </div>

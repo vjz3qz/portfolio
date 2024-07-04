@@ -117,7 +117,7 @@ function ExperienceDescription({ description }) {
       {description.map((bullet, index) => (
         <li
           key={`${bullet}-${index}`}
-          className="font-light p-1 m-1 leading-relaxed text-slate-200"
+          className="font-light p-1 m-1 leading-relaxed text-white"
         >
           •{" "}
           <ReactMarkdown

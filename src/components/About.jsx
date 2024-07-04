@@ -18,7 +18,7 @@ export default function About() {
             <h1 className="text-center  sm:text-2xl text-xl mb-6 font-medium text-white">
               About Me
             </h1>
-            <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
+            <p className="text-center font-light mb-8 leading-relaxed text-white">
               I'm a Computer Science student, Machine Learning Researcher, and
               Software Engineer at the University of Virginia passionate about
               leveraging tech for positive change. Outside of my
@@ -32,7 +32,7 @@ export default function About() {
             <h1 className="text-center  sm:text-2xl text-xl mb-6 font-medium text-white">
               Contact
             </h1>
-            <p className="text-center font-light mb-8 leading-relaxed text-slate-200">
+            <p className="text-center font-light mb-8 leading-relaxed text-white">
               Varun Pasupuleti
               <br />
               Ashburn, VA
