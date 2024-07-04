@@ -53,7 +53,7 @@ function ExperienceList({ experiences }) {
 function IndividualExperience({ experience }) {
   const { logo, company, position, time, description, skills } = experience;
   return (
-    <div className="my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90">
+    <div className="p-3 my-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90">
       <Disclosure>
         {({ open }) => (
           <>
