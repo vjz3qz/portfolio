@@ -44,7 +44,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="md:col-span-1 p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90 sm:block hidden">
+        <div className="md:col-span-1 p-5 m-5 shadow-lg transform transition duration-500 ease-in-out hover:scale-105 hover:shadow-2xl w-full border-4 border-warmGray-100 bg-neutral-800 opacity-80 hover:opacity-90 md:block hidden">
           <img
             className="object-cover object-center rounded"
             alt="hero"
