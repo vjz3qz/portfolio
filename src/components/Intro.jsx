@@ -1,12 +1,14 @@
 import React from "react";
 import "./stars.scss";
 import { ReactTyped } from "react-typed";
+import { Link } from "react-scroll";
+import { ChevronDownIcon } from "@heroicons/react/solid";
 
 class Intro extends React.Component {
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
-      <div id="home" className="intro route">
+      <div id="home" className="intro">
         {/* <div id="home" className="intro route bg-image background">
         <div id="stars" />
         <div id="stars2" />
@@ -15,7 +17,7 @@ class Intro extends React.Component {
         <div className="intro-content display-table">
           <div className="table-cell">
             <div>
-              <h1 className="intro-title mb-6">I'm Varun Pasupuleti.</h1>
+              <h1 className="intro-title mb-6 mt-32">I'm Varun Pasupuleti.</h1>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">
@@ -67,6 +69,12 @@ class Intro extends React.Component {
                     {text}
                   </a>
                 ))}
+              </div>
+              {/* add down button */}
+              <div className="pt-36 flex justify-center">
+                <Link to={"about"} smooth={true} duration={1000} offset={-90}>
+                  <ChevronDownIcon className="h-10 w-10 text-white" />
+                </Link>
               </div>
             </div>
           </div>
