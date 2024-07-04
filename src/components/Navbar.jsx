@@ -40,7 +40,7 @@ const NavBar = () => {
             ].map(([text, id]) => (
               <li className="p-4">
                 <Link to={id} smooth={true} duration={1000} offset={-90}>
-                  <p className="text-slate-300 hover:text-white">{text}</p>
+                  <p className="text-white hover:text-white">{text}</p>
                 </Link>
               </li>
             ))}
@@ -58,8 +58,8 @@ const NavBar = () => {
           <div
             className={
               nav
-                ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-900 text-center ease-in duration-300"
-                : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-gray-900 text-center ease-in duration-300"
+                ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-neutral-900 text-center ease-in duration-300"
+                : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-neutral-900 text-center ease-in duration-300"
             }
           >
             <ul>
@@ -78,7 +78,7 @@ const NavBar = () => {
                     duration={1000}
                     offset={-90}
                   >
-                    <p className="text-slate-300 hover:text-white">{text}</p>
+                    <p className="text-white hover:text-white">{text}</p>
                   </Link>
                 </li>
               ))}
