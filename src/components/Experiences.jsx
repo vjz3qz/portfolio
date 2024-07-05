@@ -123,7 +123,7 @@ function ExperienceDescription({ description }) {
           <ReactMarkdown
             components={{
               a: ({ node, ...props }) => (
-                <a className="text-green-400 underline" {...props} />
+                <a className="text-blue-300 underline" {...props} />
               ),
               p: ({ node, ...props }) => <span {...props} />,
             }}
