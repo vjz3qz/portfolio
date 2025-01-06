@@ -10,25 +10,35 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-neutral-900 font-serif">
-      <Navbar />
-      <Intro />
-      <TransparentRule />
-      {/* <HorizontalRule /> */}
-      <About />
-      <HorizontalRule />
-      <Education />
-      <HorizontalRule />
-      <Experiences />
-      <HorizontalRule />
-      <Projects />
-      <HorizontalRule />
-      <Skills />
-      <HorizontalRule />
-      <Footer />
-    </main>
+    <iframe
+      src="/varunPage.html"
+      title="Varun Page"
+      style={{ width: "100%", height: "100vh", border: "none" }}
+    />
   );
 }
+
+// function App() {
+//   return (
+//     <main className="text-gray-400 bg-neutral-900 font-serif">
+//       <Navbar />
+//       <Intro />
+//       <TransparentRule />
+//       {/* <HorizontalRule /> */}
+//       <About />
+//       <HorizontalRule />
+//       <Education />
+//       <HorizontalRule />
+//       <Experiences />
+//       <HorizontalRule />
+//       <Projects />
+//       <HorizontalRule />
+//       <Skills />
+//       <HorizontalRule />
+//       <Footer />
+//     </main>
+//   );
+// }
 
 function HorizontalRule() {
   return (
