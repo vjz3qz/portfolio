@@ -12,7 +12,11 @@ import "./style.css";
 function App() {
   return (
     <>
-      <article id="172a3eed-0487-802a-9139-cae54a3df4f4" className="page serif">
+      <article
+        id="172a3eed-0487-802a-9139-cae54a3df4f4"
+        className="page serif"
+        style={{ padding: "0 1rem" }}
+      >
         <header>
           <h1 className="page-title">Varun Pasupuleti 🏔️</h1>
           <p className="page-description"></p>
