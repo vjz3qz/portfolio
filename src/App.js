@@ -33,23 +33,37 @@ function App() {
               className="column"
             >
               <p id="172a3eed-0487-817e-b5b4-d7ca40fb5171" className="">
-                I love applying AI and software to hard problems.
+                I'm passionate about applying AI and software engineering to
+                solve complex, impactful problems.
               </p>
               <p id="172a3eed-0487-81a7-aaaf-df71ca2f0d0c" className="">
-                I’m a Forward Deployed Software Engineer at Palantir, where I
-                focus on building software for the government. Previously, I
-                played a key role in architecting the first iteration of an AI
-                verification engineer at Bronco AI.
+                Currently, I'm a Forward Deployed Software Engineer at Palantir,
+                where I build AI-powered healthcare systems for government
+                operations. I focus on creating tools that help medical
+                professionals deliver better care through intelligent data
+                processing and user-friendly interfaces.
               </p>
               <p id="172a3eed-0487-8148-a716-e77bb2716f21" className="">
-                In the past, I&#x27;ve enjoyed working on computational biology
-                research, multi-agent systems, and competitive programming
-                problems. I’ve also served as an emergency medical technician
-                and have a strong interest in health and well-being. I studied
-                CS at UVA.
+                Previously, I architected and shipped the first iteration of an
+                AI-powered supply chain management system at Bronco AI,
+                automating critical business processes for enterprise clients. I
+                also played a key role in architecting the first iteration of an
+                AI verification engineer there.
+              </p>
+              <p id="172a3eed-0487-8149-a716-e77bb2716f22" className="">
+                My technical interests span machine learning research,
+                multi-agent systems, and scalable web applications. I've
+                contributed to computational biology research, and built flood
+                risk assessment tools using agentic AI architectures.
+              </p>
+              <p id="172a3eed-0487-8150-a716-e77bb2716f23" className="">
+                Outside of work, I serve as a volunteer Emergency Medical
+                Technician, combining my passion for technology with direct
+                community impact. I graduated from the University of Virginia
+                with a B.S. in Computer Science.
               </p>
               <p id="172a3eed-0487-802e-967a-e6611ec98fbb" className="">
-                Find me on{" "}
+                Connect with me on{" "}
                 <a
                   href="https://www.linkedin.com/in/varunpasupuleti/"
                   target="_blank"
@@ -88,7 +102,10 @@ function App() {
           <p id="172a3eed-0487-8062-b731-fc18538ce94a" className=""></p>
         </div>
       </article>
-      <span class="sans" style={{ fontSize: "14px", paddingTop: "2em" }}></span>
+      <span
+        className="sans"
+        style={{ fontSize: "14px", paddingTop: "2em" }}
+      ></span>
     </>
   );
 }
